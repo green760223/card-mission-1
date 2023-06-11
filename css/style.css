@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* * {
+  outline: 1px solid navy;
+} */
+
+body {
+  width: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  padding: 0 32px;
+}
+
+p {
+  margin-top: 12px;
+  padding: 0 32px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #525252;
+  height: 42px;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 1296px;
+}
+
+.card-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  border: 1px solid #f2f2f2;
+  line-height: 24px;
+  color: #020202;
+}
+
+.card-info {
+  border-top: 0.5px solid #f2f2f2;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info-item {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 32px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.ai-model {
+  font-weight: bold;
+}

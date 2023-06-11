@@ -1,0 +1,94 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+
+body {
+  width: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  max-width: calc(416px * 3 + 24px * 2);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.card_group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  border: 0.5px solid #f2f2f2;
+  line-height: 24px;
+  color: #020202;
+}
+
+.card_img {
+  height: 312px;
+  overflow: hidden;
+}
+
+.card_img img {
+  transform: scale(1, 1);
+  transition: all 0.2s ease-out;
+}
+
+.card_img:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.card_body,
+.info_item {
+  padding: 20px 32px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #525252;
+}
+
+.card_info {
+  margin-top: auto;
+}
+
+.info_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.5px solid #f2f2f2;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ai {
+  font-weight: bold;
+}
